@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
 title: TrainLink API
+description: This is the website for the TrainLink project. Find out more about the project, how to use it and the API!
 google_site_verification: _OTuEZcJFItTPzCDeIEGquDDkO4apu4JZd2bHdOvpbg
 plugins:
   - jekyll-sitemap
