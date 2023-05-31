@@ -8,10 +8,13 @@ TrainLink is fully open source under the GNU GPL v3 license. What this means is 
 
 ## TrainLink Command
 
-[TrainLink Command](./trainlink-command/features.md) is our first party throttle that uses the TrainLink Connect technology.
+[TrainLink Command](https://trainlink-org.github.io/trainlink-command) is our first party throttle that uses the TrainLink Connect technology.
 It is available as an app on Linux or Windows and as a web app for any modern platform.
 
 ## TrainLink Connect
+
+[TrainLink Connect](https://trainlink-org.github.io/trainlink-connect) is the underlying technology that powers TrainLink Command.
+It is a fully open source protocol, meaning anyone can write an app that can talk to other TrainLink Connect throttles and servers.
 
 ## What hardware is supported?
 
