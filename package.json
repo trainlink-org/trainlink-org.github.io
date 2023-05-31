@@ -1,0 +1,24 @@
+{
+  "name": "trainlink-org.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainlink-org/trainlink-org.github.io.git"
+  },
+  "author": "Trainlink Organisation",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/trainlink-org/trainlink-org.github.io/issues"
+  },
+  "homepage": "https://github.com/trainlink-org/trainlink-org.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.62"
+  }
+}
