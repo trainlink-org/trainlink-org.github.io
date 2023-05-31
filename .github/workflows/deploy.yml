@@ -13,7 +13,7 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TARGET_REPO: trainlink-org/trainlink-org.github.io
         TARGET_BRANCH: main
         BUILD_SCRIPT: npm i && npm run build
