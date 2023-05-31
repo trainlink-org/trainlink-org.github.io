@@ -6,19 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trainlink-org/trainlink-org.github.io.git"
   },
-  "author": "Trainlink Organisation",
+  "author": "TrainLink Organisation",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/trainlink-org/trainlink-org.github.io/issues"
   },
   "homepage": "https://github.com/trainlink-org/trainlink-org.github.io#readme",
   "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.62",
     "vuepress": "^2.0.0-beta.62"
   }
 }
