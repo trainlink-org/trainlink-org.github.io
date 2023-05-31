@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
     "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "format-check": "prettier --check .",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,6 @@
   },
   "homepage": "https://github.com/trainlink-org/trainlink-org.github.io#readme",
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.62",
-    "vuepress": "^2.0.0-beta.62"
+    "vitepress": "^1.0.0-beta.1"
   }
 }

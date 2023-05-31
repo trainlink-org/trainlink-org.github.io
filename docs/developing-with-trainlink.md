@@ -1,3 +1,3 @@
-## Developing with TrainLink
+# Developing with TrainLink
 
 **Coming Soon!**
